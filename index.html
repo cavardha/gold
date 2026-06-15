@@ -2,731 +2,344 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <title>KNR Gold | Gold & Silver Wholesale & Retail</title>
-
-  <meta
-    name="description"
-    content="KNR Gold, Visakhapatnam - Gold & Silver Wholesale & Retail, Sell Old Gold, Release Pledged Gold, Exchange Gold for Cash and Jewellery Enquiries."
-  />
-
-  <meta
-    name="keywords"
-    content="KNR Gold Visakhapatnam, gold shop Visakhapatnam, sell old gold Visakhapatnam, silver shop Visakhapatnam, gold jewellery Town Kotha Road"
-  />
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#1b0807" />
+  <title>KNR Gold | Jewellery & Gold Services in Visakhapatnam</title>
+  <meta name="description" content="KNR Gold, Visakhapatnam – Diamond, Gold, Platinum and Silver Jewellery, old gold selling, pledged gold release, repairs, remodelling and custom jewellery services." />
+  <link rel="icon" type="image/png" href="images/favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Telugu:wght@400;500;600;700;800&family=Noto+Serif+Telugu:wght@600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
-  <!-- Top Contact Bar -->
+  <div class="menu-overlay" id="menuOverlay" aria-hidden="true"></div>
+
   <div class="top-bar">
     <div class="container top-bar-content">
-      <p>Gold & Silver Wholesale & Retail | Visakhapatnam</p>
-
+      <p>Diamond, Gold, Platinum & Silver Jewellery | Visakhapatnam</p>
       <div class="top-links">
         <a href="tel:08912795072">Call: 0891-2795072</a>
-        <a href="https://wa.me/919949362143" target="_blank">WhatsApp: 9949362143</a>
+        <a href="https://wa.me/919949362143" target="_blank" rel="noopener">WhatsApp: 9949362143</a>
       </div>
     </div>
   </div>
 
-  <!-- Header -->
-  <header class="site-header">
+  <header class="site-header" id="siteHeader">
     <div class="container nav-wrapper">
-      <a href="#home" class="logo">
-        <img src="images/logo_KNR.png" alt="KNR Gold Logo" class="site-logo" />
+      <a href="#home" class="logo" aria-label="KNR Gold home">
+        <img src="images/logo_KNR.png" alt="KNR Gold logo" class="site-logo" />
       </a>
 
-      <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
-        ☰
-      </button>
-
-      <nav class="navbar" id="navbar">
+      <nav class="desktop-navbar" aria-label="Desktop navigation">
         <a href="#home">Home</a>
         <a href="#services">Services</a>
         <a href="#about">About</a>
-        <a href="#process">Process</a>
         <a href="#gallery">Gallery</a>
+        <a href="#testimonials">Reviews</a>
         <a href="#faq">FAQ</a>
         <a href="#contact">Contact</a>
       </nav>
+
+      <div class="header-actions">
+        <div class="language-switch header-language-switch" data-language-control aria-label="Choose language">
+          <button type="button" class="lang-btn active" data-lang="en" aria-pressed="true">EN</button>
+          <button type="button" class="lang-btn" data-lang="te" aria-pressed="false">తెలుగు</button>
+        </div>
+
+        <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open navigation menu" aria-controls="navbar" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
     </div>
   </header>
 
-  <!-- Hero Section -->
-  <section class="premium-hero" id="home">
-    <div class="hero-overlay"></div>
-
-    <div class="hero-content">
-      <div class="hero-text">
-        <p class="hero-tag">Trusted Gold & Silver Service in Visakhapatnam</p>
-
-        <h1>KNR GOLD</h1>
-
-        <h2>Gold & Silver Wholesale & Retail</h2>
-
-        <p class="hero-description">
-          Sell old gold, release pledged gold, exchange gold for cash, and explore
-          quality gold & silver jewellery with transparent service.
-        </p>
-
-        <div class="hero-points">
-          <span>Since 2001</span>
-          <span>Transparent Process</span>
-          <span>Credit Cards Accepted</span>
-        </div>
-
-        <div class="hero-buttons">
-          <a href="tel:08912795072" class="btn primary-btn">Call Now</a>
-          <a href="https://wa.me/919949362143" target="_blank" class="btn secondary-btn">
-            WhatsApp Us
-          </a>
-        </div>
-      </div>
-
-      <div class="hero-card">
-        <h3>Instant Gold Service</h3>
-
-        <p>
-          Quick assistance for gold selling, pledged gold release and jewellery enquiries.
-        </p>
-
-        <div class="mini-info">
-          <strong>Phone:</strong>
-          <span>0891-2795072</span>
-        </div>
-
-        <div class="mini-info">
-          <strong>WhatsApp:</strong>
-          <span>9949362143</span>
-        </div>
-
-        <div class="mini-info">
-          <strong>Location:</strong>
-          <span>Town Kotha Road, Visakhapatnam</span>
-        </div>
-      </div>
+  <nav class="navbar mobile-navbar" id="navbar" aria-hidden="true" aria-label="Mobile navigation">
+    <div class="mobile-menu-header">
+      <a href="#home" class="mobile-menu-logo nav-link"><img src="images/logo_KNR.png" alt="KNR Gold logo" /></a>
+      <button class="menu-close" id="menuClose" type="button" aria-label="Close navigation menu">×</button>
     </div>
-  </section>
-
-  <!-- Trust Bar -->
-  <section class="trust-bar">
-    <div class="container trust-wrapper">
-      <div class="trust-item">
-        <span>Since</span>
-        <strong>2001</strong>
-      </div>
-
-      <div class="trust-item">
-        <span>Service</span>
-        <strong>Gold & Silver</strong>
-      </div>
-
-      <div class="trust-item">
-        <span>Location</span>
-        <strong>Visakhapatnam</strong>
-      </div>
-
-      <div class="trust-item">
-        <span>Payment</span>
-        <strong>Cards Accepted</strong>
-      </div>
+    <div class="mobile-menu-title"><span>Explore KNR Gold</span><small>Jewellery & Gold Services</small></div>
+    <div class="language-switch drawer-language-switch" data-language-control aria-label="Choose language">
+      <button type="button" class="lang-btn active" data-lang="en" aria-pressed="true">English</button>
+      <button type="button" class="lang-btn" data-lang="te" aria-pressed="false">తెలుగు</button>
     </div>
-  </section>
+    <a href="#home" class="nav-link">Home <b>›</b></a>
+    <a href="#services" class="nav-link">Services <b>›</b></a>
+    <a href="#about" class="nav-link">About <b>›</b></a>
+    <a href="#gallery" class="nav-link">Gallery <b>›</b></a>
+    <a href="#testimonials" class="nav-link">Reviews <b>›</b></a>
+    <a href="#faq" class="nav-link">FAQ <b>›</b></a>
+    <a href="#contact" class="nav-link">Contact <b>›</b></a>
+    <div class="mobile-menu-address"><strong>KNR Gold</strong><span>Town Kotha Road, Visakhapatnam</span></div>
+  </nav>
 
-  <!-- Quick Enquiry -->
-  <section class="quick-enquiry">
-    <div class="container enquiry-box">
-      <div>
-        <h2>Need quick assistance?</h2>
-        <p>Share your requirement and contact KNR Gold instantly through WhatsApp.</p>
-      </div>
-
-      <form id="enquiryForm" class="enquiry-form">
-        <input type="text" id="name" placeholder="Your Name" required />
-        <input type="tel" id="phone" placeholder="Phone Number" required />
-
-        <select id="service" required>
-          <option value="">Select Service</option>
-          <option value="Sell Old Gold">Sell Old Gold</option>
-          <option value="Release Pledged Gold">Release Pledged Gold</option>
-          <option value="Exchange Gold for Cash">Exchange Gold for Cash</option>
-          <option value="Gold Jewellery Enquiry">Gold Jewellery Enquiry</option>
-          <option value="Silver Jewellery Enquiry">Silver Jewellery Enquiry</option>
-          <option value="Today Gold / Silver Rate">Today Gold / Silver Rate</option>
-        </select>
-
-        <button type="submit">Send Enquiry</button>
-      </form>
-
-      <div class="compact-rate-note">
-        <div>
-          <strong>Today Gold & Silver Rate:</strong>
-          <span>For latest market rate, please call or WhatsApp KNR Gold.</span>
-        </div>
-
-        <a href="#rateModal">Ask Rate</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- Services -->
-  <section class="section services-section" id="services">
-    <div class="container">
-      <div class="section-heading">
-        <p class="section-label">Our Services</p>
-        <h2>Gold & Silver Services</h2>
-        <p>
-          KNR Gold provides trusted support for old gold selling, pledged gold release,
-          jewellery enquiry and silver related requirements.
-        </p>
-      </div>
-
-      <div class="service-grid">
-        <div class="service-card premium-service-card">
-          <span class="service-badge">Most Requested</span>
-          <div class="service-icon">💰</div>
-          <h3>Sell Old Gold</h3>
-          <p>Sell old, unused or broken gold with clear discussion and shop guidance.</p>
-          <a href="https://wa.me/919949362143?text=Hello%20KNR%20Gold,%20I%20want%20to%20enquire%20about%20selling%20old%20gold." target="_blank">
-            Enquire
-          </a>
-        </div>
-
-        <div class="service-card premium-service-card">
-          <span class="service-badge">Popular</span>
-          <div class="service-icon">🔐</div>
-          <h3>Release Pledged Gold</h3>
-          <p>Support for pledged gold release from banks or finance companies.</p>
-          <a href="https://wa.me/919949362143?text=Hello%20KNR%20Gold,%20I%20want%20help%20for%20release%20pledged%20gold." target="_blank">
-            Enquire
-          </a>
-        </div>
-
-        <div class="service-card premium-service-card">
-          <div class="service-icon">⚖️</div>
-          <h3>Gold Exchange</h3>
-          <p>Gold exchange or cash requirement support based on market condition.</p>
-          <a href="https://wa.me/919949362143?text=Hello%20KNR%20Gold,%20I%20want%20to%20enquire%20about%20gold%20exchange." target="_blank">
-            Enquire
-          </a>
-        </div>
-
-        <div class="service-card premium-service-card">
-          <div class="service-icon">👑</div>
-          <h3>Gold Jewellery</h3>
-          <p>Rings, chains, bangles, necklaces and bridal jewellery enquiries.</p>
-          <a href="https://wa.me/919949362143?text=Hello%20KNR%20Gold,%20I%20want%20to%20enquire%20about%20gold%20jewellery." target="_blank">
-            Enquire
-          </a>
-        </div>
-
-        <div class="service-card premium-service-card">
-          <div class="service-icon">🥈</div>
-          <h3>Silver Items</h3>
-          <p>Silver jewellery, articles and retail enquiries for special occasions.</p>
-          <a href="https://wa.me/919949362143?text=Hello%20KNR%20Gold,%20I%20want%20to%20enquire%20about%20silver%20items." target="_blank">
-            Enquire
-          </a>
-        </div>
-
-        <div class="service-card premium-service-card">
-          <div class="service-icon">💳</div>
-          <h3>Card Payment</h3>
-          <p>Credit cards accepted. Contact shop for payment and billing details.</p>
-          <a href="https://wa.me/919949362143?text=Hello%20KNR%20Gold,%20I%20want%20to%20know%20about%20payment%20options." target="_blank">
-            Enquire
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- About -->
-  <section class="section about-section" id="about">
-    <div class="container two-column">
-      <div class="about-image">
-        <img src="images/knr-card.png" alt="KNR Gold Visiting Card" />
-      </div>
-
-      <div class="section-content">
-        <p class="section-label">About KNR Gold</p>
-
-        <h2>Trusted Gold & Silver Shop in Visakhapatnam</h2>
-
-        <p>
-          KNR Gold is a gold and silver wholesale and retail shop located at
-          Town Kotha Road, Visakhapatnam. The shop provides jewellery services,
-          gold and silver enquiries, old gold assistance and customer support
-          with a transparent approach.
-        </p>
-
-        <p>
-          Our aim is to provide customers with trustworthy service, proper guidance,
-          quick response and professional support for gold and silver related requirements.
-        </p>
-
-        <div class="about-highlights">
-          <div>
-            <strong>Since 2001</strong>
-            <span>Trusted Service</span>
-          </div>
-
-          <div>
-            <strong>Wholesale</strong>
-            <span>Gold & Silver</span>
-          </div>
-
-          <div>
-            <strong>Retail</strong>
-            <span>Jewellery Service</span>
+  <main>
+    <section class="hero-slider" id="home" aria-label="KNR Gold highlights">
+      <div class="hero-slide active" data-slide="0">
+        <div class="hero-overlay"></div>
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <p class="hero-tag">Trusted Jewellery Destination in Visakhapatnam</p>
+            <h1>KNR GOLD</h1>
+            <h2>Diamond, Gold, Platinum & Silver Jewellery</h2>
+            <p>Discover elegant jewellery, genuine gemstones, custom designs and complete jewellery services at one trusted destination.</p>
+            <div class="hero-points"><span>Since 2001</span><span>Trusted Craftsmanship</span><span>Complete Jewellery Services</span></div>
+            <a class="hero-cta" href="#services">Explore Services</a>
           </div>
         </div>
       </div>
-    </div>
-  </section>
 
-  <!-- Why Choose -->
-  <section class="section why-section">
-    <div class="container">
-      <div class="section-heading">
-        <p class="section-label">Why Choose Us</p>
-        <h2>Simple, Transparent & Trusted</h2>
-      </div>
-
-      <div class="why-grid">
-        <div class="why-card">
-          <h3>Since 2001</h3>
-          <p>Long-standing local presence and customer trust.</p>
-        </div>
-
-        <div class="why-card">
-          <h3>Transparent Process</h3>
-          <p>Clear communication and customer-friendly service process.</p>
-        </div>
-
-        <div class="why-card">
-          <h3>Quick Response</h3>
-          <p>Fast support through call, WhatsApp and direct shop visit.</p>
-        </div>
-
-        <div class="why-card">
-          <h3>Local Trust</h3>
-          <p>Located in Town Kotha Road, Visakhapatnam for easy access.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Clean Process -->
-  <section class="section process-section" id="process">
-    <div class="container">
-      <div class="process-header-card">
-        <p class="section-label">Working Process</p>
-        <h2>Simple & Transparent Process</h2>
-        <p>
-          Contact KNR Gold for old gold selling, pledged gold release assistance,
-          jewellery enquiry and today’s gold/silver rate.
-        </p>
-      </div>
-
-      <div class="clean-process-grid">
-        <div class="clean-process-card">
-          <span>01</span>
-          <h3>Contact KNR Gold</h3>
-          <p>Call or WhatsApp and share your gold, silver or jewellery requirement.</p>
-        </div>
-
-        <div class="clean-process-card">
-          <span>02</span>
-          <h3>Visit the Shop</h3>
-          <p>Visit Town Kotha Road branch with ornaments and valid ID proof.</p>
-        </div>
-
-        <div class="clean-process-card">
-          <span>03</span>
-          <h3>Check & Discuss</h3>
-          <p>Purity, weight, market rate and service details will be discussed clearly.</p>
-        </div>
-
-        <div class="clean-process-card">
-          <span>04</span>
-          <h3>Final Confirmation</h3>
-          <p>Proceed with jewellery purchase, gold selling or pledge release assistance.</p>
-        </div>
-      </div>
-
-      <div class="process-note">
-        <div>
-          <h3>Documents Note</h3>
-          <p>
-            Please carry valid ID proof. For pledged gold, carry pledge receipt or loan
-            details. Original purchase bill may help in verification if available.
-          </p>
-        </div>
-
-        <a href="https://wa.me/919949362143?text=Hello%20KNR%20Gold,%20I%20want%20to%20know%20the%20process%20and%20documents%20required."
-           target="_blank">
-          Ask Documents
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <!-- Gallery -->
-  <section class="section gallery-section" id="gallery">
-    <div class="container">
-      <div class="section-heading">
-        <p class="section-label">Gallery</p>
-        <h2>Jewellery Categories</h2>
-        <p>
-          Explore popular gold and silver jewellery categories. Contact KNR Gold
-          for latest designs, availability and today’s rate.
-        </p>
-      </div>
-
-      <div class="gallery-grid">
-        <div class="premium-gallery-card">
-          <div class="gallery-icon">⛓️</div>
-          <h3>Gold Chains</h3>
-          <p>Daily wear, traditional and special occasion chain designs.</p>
-          <a href="https://wa.me/919949362143?text=Hello%20KNR%20Gold,%20I%20want%20to%20enquire%20about%20Gold%20Chains." target="_blank">
-            Enquire Now
-          </a>
-        </div>
-
-        <div class="premium-gallery-card">
-          <div class="gallery-icon">⭕</div>
-          <h3>Bangles</h3>
-          <p>Gold bangles for weddings, festivals and regular use.</p>
-          <a href="https://wa.me/919949362143?text=Hello%20KNR%20Gold,%20I%20want%20to%20enquire%20about%20Bangles." target="_blank">
-            Enquire Now
-          </a>
-        </div>
-
-        <div class="premium-gallery-card">
-          <div class="gallery-icon">💍</div>
-          <h3>Rings</h3>
-          <p>Gold rings, daily wear rings and gift collections.</p>
-          <a href="https://wa.me/919949362143?text=Hello%20KNR%20Gold,%20I%20want%20to%20enquire%20about%20Rings." target="_blank">
-            Enquire Now
-          </a>
-        </div>
-
-        <div class="premium-gallery-card">
-          <div class="gallery-icon">📿</div>
-          <h3>Necklaces</h3>
-          <p>Traditional necklace collections and bridal jewellery enquiries.</p>
-          <a href="https://wa.me/919949362143?text=Hello%20KNR%20Gold,%20I%20want%20to%20enquire%20about%20Necklaces." target="_blank">
-            Enquire Now
-          </a>
-        </div>
-
-        <div class="premium-gallery-card">
-          <div class="gallery-icon">✨</div>
-          <h3>Earrings</h3>
-          <p>Studs, drops and traditional gold earring designs.</p>
-          <a href="https://wa.me/919949362143?text=Hello%20KNR%20Gold,%20I%20want%20to%20enquire%20about%20Earrings." target="_blank">
-            Enquire Now
-          </a>
-        </div>
-
-        <div class="premium-gallery-card">
-          <div class="gallery-icon">🥈</div>
-          <h3>Silver Items</h3>
-          <p>Silver articles, jewellery and special occasion items.</p>
-          <a href="https://wa.me/919949362143?text=Hello%20KNR%20Gold,%20I%20want%20to%20enquire%20about%20Silver%20Items." target="_blank">
-            Enquire Now
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- FAQ -->
-  <section class="section faq-section" id="faq">
-    <div class="container">
-      <div class="section-heading">
-        <p class="section-label">FAQ</p>
-        <h2>Frequently Asked Questions</h2>
-      </div>
-
-      <div class="faq-list">
-        <details>
-          <summary>Do you provide old gold selling assistance?</summary>
-          <p>
-            Yes, customers can contact KNR Gold for old gold selling related
-            assistance and visit the shop for further details.
-          </p>
-        </details>
-
-        <details>
-          <summary>Do you help with pledged gold release?</summary>
-          <p>
-            Yes, pledged gold release assistance can be discussed by contacting
-            KNR Gold directly.
-          </p>
-        </details>
-
-        <details>
-          <summary>Can I ask today gold and silver rate?</summary>
-          <p>
-            Yes, customers can call or WhatsApp KNR Gold for the latest gold and silver rate.
-            Final rate may vary based on purity, weight, market rate and shop policy.
-          </p>
-        </details>
-
-        <details>
-          <summary>What documents are required?</summary>
-          <p>
-            Valid identity proof and address proof may be required depending on the service.
-            Final document requirement should be confirmed at the shop.
-          </p>
-        </details>
-
-        <details>
-          <summary>Can I contact through WhatsApp?</summary>
-          <p>
-            Yes, you can contact KNR Gold through WhatsApp at 9949362143.
-          </p>
-        </details>
-      </div>
-    </div>
-  </section>
-
-  <!-- Contact -->
-  <section class="section contact-section" id="contact">
-    <div class="container">
-      <div class="section-heading">
-        <p class="section-label">Contact Us</p>
-        <h2>Visit KNR Gold</h2>
-        <p>
-          Visit our shop at Town Kotha Road, Visakhapatnam or contact us directly
-          for gold, silver, rate and jewellery enquiries.
-        </p>
-      </div>
-
-      <div class="contact-premium-grid">
-        <div class="contact-info-panel">
-          <div class="contact-card-main">
-            <span class="contact-status">Quick Response Available</span>
-            <h3>KNR GOLD</h3>
-            <p>Gold & Silver Wholesale & Retail</p>
+      <div class="hero-slide" data-slide="1">
+        <div class="hero-overlay"></div>
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <p class="hero-tag">Transparent Gold Services</p>
+            <h1 class="hero-title-wide">SELL & RELEASE GOLD</h1>
+            <h2>Old Gold Selling and Pledged Gold Assistance</h2>
+            <p>Get clear guidance for selling old gold, gold exchange and release of pledged gold from banks or finance companies.</p>
+            <div class="hero-points"><span>Clear Discussion</span><span>Professional Guidance</span><span>Quick Response</span></div>
+            <a class="hero-cta" href="#gold-services">Explore Gold Services</a>
           </div>
+        </div>
+      </div>
 
-          <div class="contact-mini-card">
-            <span>📍</span>
-            <div>
-              <h4>Shop Address</h4>
-              <p>
-                #26-15-182, Main Road, Town Kotha Road,<br />
-                Visakhapatnam - 530001
-              </p>
+      <div class="hero-slide" data-slide="2">
+        <div class="hero-overlay"></div>
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <p class="hero-tag">Custom & Lightweight Jewellery</p>
+            <h1 class="hero-title-wide">DESIGN YOUR DREAM JEWELLERY</h1>
+            <h2>Lightweight Gold Jewellery, Personalised Your Way</h2>
+            <p>Create lightweight and comfortable gold jewellery for daily wear, weddings, names, gifts and special occasions in modern or traditional styles.</p>
+            <div class="hero-points"><span>Personalised Designs</span><span>Lightweight & Comfortable</span><span>Modern & Traditional</span></div>
+            <a class="hero-cta" href="#custom-lightweight">Start Custom Design</a>
+          </div>
+        </div>
+      </div>
+
+      <button class="slider-arrow slider-prev" type="button" aria-label="Previous slide">‹</button>
+      <button class="slider-arrow slider-next" type="button" aria-label="Next slide">›</button>
+      <div class="slider-dots" aria-label="Slider navigation">
+        <button class="slider-dot active" type="button" data-slide-to="0" aria-label="Show slide 1"></button>
+        <button class="slider-dot" type="button" data-slide-to="1" aria-label="Show slide 2"></button>
+        <button class="slider-dot" type="button" data-slide-to="2" aria-label="Show slide 3"></button>
+      </div>
+    </section>
+
+    <section class="quick-enquiry" id="enquiry">
+      <div class="container enquiry-box">
+        <div class="enquiry-intro">
+          <p class="section-label">Quick Enquiry</p>
+          <h2>Need quick assistance?</h2>
+          <p>Share your requirement and contact KNR Gold instantly through WhatsApp.</p>
+        </div>
+        <form class="enquiry-form" id="enquiryForm">
+          <input type="text" id="name" placeholder="Your Name" autocomplete="name" required />
+          <input type="tel" id="phone" placeholder="Phone Number" autocomplete="tel" inputmode="tel" required />
+          <select id="service" required>
+            <option value="">Select Service</option>
+            <option>Sell Old Gold</option>
+            <option>Release Pledged Gold</option>
+            <option>Gold Exchange</option>
+            <option>Old Gold to New Ornaments</option>
+            <option>Diamond Jewellery</option>
+            <option>Gold Jewellery</option>
+            <option>Platinum Jewellery</option>
+            <option>Silver Jewellery</option>
+            <option>Real Gemstones</option>
+            <option>Custom Jewellery Design</option>
+            <option>Lightweight Custom Jewellery</option>
+            <option>Jewellery Repair</option>
+            <option>Jewellery Polishing & Cleaning</option>
+            <option>Jewellery Remodelling</option>
+            <option>Ear Piercing</option>
+            <option>Today Gold / Silver Rate</option>
+            <option>General Enquiry</option>
+          </select>
+          <button type="submit">Send Enquiry</button>
+        </form>
+        <div class="compact-rate-note"><div><strong>Today Gold & Silver Rate</strong><span>Call or WhatsApp KNR Gold for the latest rate.</span></div><a href="#rateModal">Ask Rate</a></div>
+      </div>
+    </section>
+
+    <section class="section services-section" id="services">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-label">Our Services</p>
+          <h2>Complete Jewellery & Gold Services</h2>
+          <p>Premium jewellery collections and complete support for gold selling, pledged gold, custom designs, repairs, remodelling and jewellery care.</p>
+        </div>
+
+        <div class="service-group" id="collections">
+          <div class="group-heading"><span>01</span><div><h3>Jewellery Collections</h3><p>Explore jewellery and gemstones for daily wear, weddings, gifting and special occasions.</p></div></div>
+          <div class="service-grid collection-grid">
+            <article class="service-card"><div class="service-icon">💎</div><h3>Diamond Jewellery</h3><p>Elegant rings, earrings, necklaces and special-occasion diamond collections.</p><a href="https://wa.me/919949362143?text=Hello%20KNR%20Gold,%20I%20want%20to%20enquire%20about%20diamond%20jewellery." target="_blank" rel="noopener">Enquire</a></article>
+            <article class="service-card"><div class="service-icon">👑</div><h3>Gold Jewellery</h3><p>Traditional and contemporary ornaments for weddings, festivals and everyday wear.</p><a href="https://wa.me/919949362143?text=Hello%20KNR%20Gold,%20I%20want%20to%20enquire%20about%20gold%20jewellery." target="_blank" rel="noopener">Enquire</a></article>
+            <article class="service-card"><div class="service-icon">⚪</div><h3>Platinum Jewellery</h3><p>Premium platinum rings, bands and modern jewellery designs.</p><a href="https://wa.me/919949362143?text=Hello%20KNR%20Gold,%20I%20want%20to%20enquire%20about%20platinum%20jewellery." target="_blank" rel="noopener">Enquire</a></article>
+            <article class="service-card"><div class="service-icon">🥈</div><h3>Silver Jewellery</h3><p>Silver ornaments, articles, gifts and jewellery for every occasion.</p><a href="https://wa.me/919949362143?text=Hello%20KNR%20Gold,%20I%20want%20to%20enquire%20about%20silver%20jewellery." target="_blank" rel="noopener">Enquire</a></article>
+            <article class="service-card"><div class="service-icon">🔮</div><h3>Real Gemstones</h3><p>Genuine gemstones available for jewellery and customised requirements.</p><a href="https://wa.me/919949362143?text=Hello%20KNR%20Gold,%20I%20want%20to%20enquire%20about%20real%20gemstones." target="_blank" rel="noopener">Enquire</a></article>
+          </div>
+        </div>
+
+        <div class="service-group" id="gold-services">
+          <div class="group-heading"><span>02</span><div><h3>Gold Services</h3><p>Transparent assistance for old gold, exchange, pledged gold and conversion into new ornaments.</p></div></div>
+          <div class="service-grid four-grid">
+            <article class="service-card"><span class="service-badge">Most Requested</span><div class="service-icon">💰</div><h3>Sell Old Gold</h3><p>Sell old, unused or broken gold with clear discussion and professional guidance.</p><a href="https://wa.me/919949362143?text=Hello%20KNR%20Gold,%20I%20want%20to%20enquire%20about%20selling%20old%20gold." target="_blank" rel="noopener">Enquire</a></article>
+            <article class="service-card"><span class="service-badge">Popular</span><div class="service-icon">🔐</div><h3>Release Pledged Gold</h3><p>Assistance for pledged gold release from banks or finance companies.</p><a href="https://wa.me/919949362143?text=Hello%20KNR%20Gold,%20I%20need%20assistance%20to%20release%20pledged%20gold." target="_blank" rel="noopener">Enquire</a></article>
+            <article class="service-card"><div class="service-icon">⚖️</div><h3>Gold Exchange</h3><p>Exchange gold based on purity, weight, current market conditions and shop policy.</p><a href="https://wa.me/919949362143?text=Hello%20KNR%20Gold,%20I%20want%20to%20enquire%20about%20gold%20exchange." target="_blank" rel="noopener">Enquire</a></article>
+            <article class="service-card"><div class="service-icon">♻️</div><h3>Old Gold to New Ornaments</h3><p>Transform old gold into beautiful new ornaments according to your preferred design.</p><a href="https://wa.me/919949362143?text=Hello%20KNR%20Gold,%20I%20want%20to%20convert%20old%20gold%20into%20new%20ornaments." target="_blank" rel="noopener">Enquire</a></article>
+          </div>
+        </div>
+
+        <div class="service-group" id="care-services">
+          <div class="group-heading"><span>03</span><div><h3>Jewellery Care & Custom Services</h3><p>Complete support to design, restore, repair and maintain your treasured jewellery.</p></div></div>
+
+          <article class="custom-feature-card" id="custom-lightweight">
+            <div class="custom-feature-copy">
+              <span class="custom-feature-label">Featured Custom Service</span>
+              <h3>Create Your Dream Jewellery</h3>
+              <p>Choose a lightweight design and customise it to match your style. Create jewellery for everyday wear, weddings, names, gifts and special occasions with expert craftsmanship.</p>
+              <div class="custom-feature-points">
+                <span>Personalised Designs</span>
+                <span>Lightweight & Comfortable Wear</span>
+                <span>22K (916) Gold Jewellery</span>
+                <span>Modern & Traditional Styles</span>
+                <span>Custom Name Jewellery</span>
+                <span>Special Occasion Jewellery</span>
+                <span>Expert Craftsmanship</span>
+              </div>
             </div>
-          </div>
-
-          <div class="contact-mini-card">
-            <span>☎️</span>
-            <div>
-              <h4>Phone</h4>
-              <p><a href="tel:08912795072">0891-2795072</a></p>
+            <div class="custom-feature-action">
+              <div class="custom-feature-icon" aria-hidden="true">✨</div>
+              <strong>Designed Especially for You</strong>
+              <p>Share your idea or a reference image. The design, approximate weight, stones, making charges and delivery time will be confirmed before placing the order.</p>
+              <a href="https://wa.me/919949362143?text=Hello%20KNR%20Gold,%20I%20am%20interested%20in%20a%20custom%20lightweight%20jewellery%20design.%20Please%20assist%20me." target="_blank" rel="noopener">Start Custom Design</a>
             </div>
-          </div>
+          </article>
 
-          <div class="contact-mini-card">
-            <span>💬</span>
-            <div>
-              <h4>WhatsApp</h4>
-              <p><a href="https://wa.me/919949362143" target="_blank">9949362143</a></p>
-            </div>
-          </div>
-
-          <div class="contact-mini-card">
-            <span>✉️</span>
-            <div>
-              <h4>Email</h4>
-              <p>
-                <a href="mailto:kedarnath.kandula@gmail.com">
-                  kedarnath.kandula@gmail.com
-                </a>
-              </p>
-            </div>
-          </div>
-
-          <div class="contact-mini-card">
-            <span>🕘</span>
-            <div>
-              <h4>Business Hours</h4>
-              <p>Contact shop for today’s opening hours.</p>
-            </div>
-          </div>
-
-          <div class="contact-action-row upgraded-contact-actions">
-            <a href="tel:08912795072" class="contact-action-btn contact-call-action">
-              <small>Tap to Call</small>
-              <strong>Call Now</strong>
-            </a>
-
-            <a
-              href="https://wa.me/919949362143?text=Hello%20KNR%20Gold,%20I%20want%20to%20visit%20your%20shop.%20Please%20share%20details."
-              target="_blank"
-              class="contact-action-btn contact-whatsapp-action">
-              <small>Quick Chat</small>
-              <strong>WhatsApp</strong>
-            </a>
-
-            <a href="#rateModal" class="contact-action-btn contact-rate-action">
-              <small>Today</small>
-              <strong>Ask Rate</strong>
-            </a>
-          </div>
-        </div>
-
-        <div class="map-premium-box">
-          <iframe
-            src="https://www.google.com/maps?q=Town%20Kotha%20Road%20Visakhapatnam%20530001&output=embed"
-            width="100%"
-            height="100%"
-            style="border:0;"
-            allowfullscreen=""
-            loading="lazy">
-          </iframe>
-
-          <div class="map-bottom-card">
-            <div>
-              <strong>Town Kotha Road</strong>
-              <span>Visakhapatnam - 530001</span>
-            </div>
-
-            <a
-              href="https://www.google.com/maps/search/?api=1&query=Town%20Kotha%20Road%20Visakhapatnam%20530001"
-              target="_blank">
-              Open Map
-            </a>
+          <div class="service-grid care-grid">
+            <article class="service-card"><div class="service-icon">🎨</div><h3>Custom Jewellery Design</h3><p>Create personalised jewellery for weddings, gifts and special occasions.</p><a href="https://wa.me/919949362143?text=Hello%20KNR%20Gold,%20I%20am%20interested%20in%20a%20custom%20jewellery%20design." target="_blank" rel="noopener">Enquire</a></article>
+            <article class="service-card"><div class="service-icon">🧩</div><h3>Jewellery Remodelling</h3><p>Transform old or outdated jewellery into a fresh and modern design.</p><a href="https://wa.me/919949362143?text=Hello%20KNR%20Gold,%20I%20want%20to%20enquire%20about%20jewellery%20remodelling." target="_blank" rel="noopener">Enquire</a></article>
+            <article class="service-card"><div class="service-icon">🔧</div><h3>Jewellery Repair</h3><p>Repair broken chains, damaged clasps, rings, bangles and loose stones.</p><a href="https://wa.me/919949362143?text=Hello%20KNR%20Gold,%20I%20want%20to%20enquire%20about%20jewellery%20repair." target="_blank" rel="noopener">Enquire</a></article>
+            <article class="service-card"><div class="service-icon">✨</div><h3>Polish & Cleaning</h3><p>Restore the shine and beauty of favourite jewellery with professional care.</p><a href="https://wa.me/919949362143?text=Hello%20KNR%20Gold,%20I%20want%20to%20enquire%20about%20jewellery%20polishing%20and%20cleaning." target="_blank" rel="noopener">Enquire</a></article>
+            <article class="service-card"><div class="service-icon">👂</div><h3>Ear Piercing</h3><p>Professional ear-piercing service available at the shop. Confirm details before visiting.</p><a href="https://wa.me/919949362143?text=Hello%20KNR%20Gold,%20I%20want%20to%20enquire%20about%20ear%20piercing." target="_blank" rel="noopener">Enquire</a></article>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Footer -->
+    <section class="section about-section" id="about">
+      <div class="container two-column">
+        <div class="about-image"><img src="images/knr-card.png" alt="KNR Gold business card and shop contact information" loading="lazy" /></div>
+        <div class="section-content">
+          <p class="section-label">About KNR Gold</p>
+          <h2>One Destination for All Your Jewellery Needs</h2>
+          <p>KNR Gold is a jewellery and gold-service destination at Town Kotha Road, Visakhapatnam, serving customers since 2001.</p>
+          <p>From diamond, gold, platinum and silver jewellery to gold selling, pledged-gold assistance, custom designs, repair, polishing and remodelling, the shop provides complete service under one roof.</p>
+          <div class="about-highlights"><div><strong>Since 2001</strong><span>Trusted Local Service</span></div><div><strong>Wholesale & Retail</strong><span>Jewellery Collections</span></div><div><strong>Complete Support</strong><span>Gold & Jewellery</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section why-section">
+      <div class="container">
+        <div class="section-heading"><p class="section-label">Why Choose Us</p><h2>Craftsmanship, Transparency & Trust</h2></div>
+        <div class="why-grid">
+          <article class="why-card"><h3>Since 2001</h3><p>Long-standing local presence and customer relationships.</p></article>
+          <article class="why-card"><h3>Complete Solutions</h3><p>Jewellery collections, gold services and after-sales care in one place.</p></article>
+          <article class="why-card"><h3>Transparent Guidance</h3><p>Clear discussion of purity, weight, value, design and applicable charges.</p></article>
+          <article class="why-card"><h3>Quality Craftsmanship</h3><p>Careful attention to custom designs, repairs and remodelling.</p></article>
+          <article class="why-card"><h3>Personalised Service</h3><p>Solutions based on your style, occasion and jewellery requirement.</p></article>
+          <article class="why-card"><h3>Quick Response</h3><p>Easy assistance through WhatsApp, phone and direct shop visit.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section gallery-section" id="gallery">
+      <div class="container">
+        <div class="section-heading"><p class="section-label">Gallery</p><h2>Jewellery Categories</h2><p>Real shop and jewellery photos can be added here before the final launch.</p></div>
+        <div class="gallery-grid">
+          <article class="gallery-card"><div class="gallery-placeholder">💎</div><h3>Diamond Jewellery</h3><p>Rings, earrings and special-occasion collections.</p></article>
+          <article class="gallery-card"><div class="gallery-placeholder">👑</div><h3>Gold Jewellery</h3><p>Traditional and contemporary ornaments.</p></article>
+          <article class="gallery-card"><div class="gallery-placeholder">⚪</div><h3>Platinum Collection</h3><p>Modern rings, bands and premium designs.</p></article>
+          <article class="gallery-card"><div class="gallery-placeholder">🥈</div><h3>Silver Collection</h3><p>Jewellery, articles, gifts and occasion items.</p></article>
+          <article class="gallery-card"><div class="gallery-placeholder">✨</div><h3>Lightweight & Custom Jewellery</h3><p>Personalised designs for daily wear, names, weddings, gifts and special occasions.</p></article>
+          <article class="gallery-card"><div class="gallery-placeholder">♻️</div><h3>Remodelling</h3><p>Before-and-after transformation examples.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section testimonials-section" id="testimonials">
+      <div class="container">
+        <div class="section-heading"><p class="section-label">Customer Testimonials</p><h2>What Customers Say</h2><p class="sample-note">Sample text only — replace with genuine customer-approved reviews before launch.</p></div>
+        <div class="testimonial-grid">
+          <article class="testimonial-card"><div class="stars">★★★★★</div><p>“Very good service and the complete process was explained clearly. The staff were polite and helpful.”</p><strong>Sample Customer</strong><span>Visakhapatnam</span></article>
+          <article class="testimonial-card"><div class="stars">★★★★★</div><p>“I converted my old ornaments into a new design. The final jewellery was completed neatly and looked beautiful.”</p><strong>Sample Customer</strong><span>Visakhapatnam</span></article>
+          <article class="testimonial-card"><div class="stars">★★★★★</div><p>“I received proper guidance for my pledged-gold requirement. The response was quick and professional.”</p><strong>Sample Customer</strong><span>Visakhapatnam</span></article>
+          <article class="testimonial-card"><div class="stars">★★★★★</div><p>“Good collection of gold and silver jewellery. The customisation support was very useful.”</p><strong>Sample Customer</strong><span>Visakhapatnam</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section faq-section" id="faq">
+      <div class="container">
+        <div class="section-heading"><p class="section-label">FAQ</p><h2>Frequently Asked Questions</h2><p>Final answers should be confirmed by the shop owner before the website goes live.</p></div>
+        <div class="faq-list">
+          <details><summary>What documents are required to sell old gold?</summary><p>Please contact KNR Gold before visiting. Valid identity and address proof may be required, and an original purchase bill can help if available.</p></details>
+          <details><summary>How is the value of old gold calculated?</summary><p>The final value generally depends on purity, net weight, current market rate and applicable shop terms. The assessment will be explained before confirmation.</p></details>
+          <details><summary>What is required for pledged-gold release assistance?</summary><p>Customers may need valid ID proof, pledge receipt or loan details. Confirm the exact process with KNR Gold before visiting.</p></details>
+          <details><summary>Can old gold be converted into new ornaments?</summary><p>Yes. You can discuss a new design, gold requirement, gemstone requirement, making charges and other applicable costs before proceeding.</p></details>
+          <details><summary>Do you provide jewellery repair and polishing?</summary><p>Yes. KNR Gold provides jewellery repair, cleaning and polishing services. Time and charges depend on the jewellery condition and work required.</p></details>
+          <details><summary>Can I order lightweight customised jewellery?</summary><p>Yes. Lightweight designs can be discussed for daily wear, names, weddings, gifts and special occasions. The final weight, purity, stones, making charges and delivery time will be confirmed before placing the order.</p></details>
+          <details><summary>Can I order a custom jewellery design?</summary><p>Yes. Share your idea, reference image or preferred style. The design, material, stones, estimate and expected delivery can be discussed at the shop.</p></details>
+          <details><summary>Are real gemstones available?</summary><p>Real gemstones are available. Ask the shop for current availability, stone details and any supporting certification before purchase.</p></details>
+          <details><summary>Is ear piercing available?</summary><p>Yes. Please contact the shop first to confirm availability, method, timing and any age-related requirements.</p></details>
+        </div>
+      </div>
+    </section>
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-heading"><p class="section-label">Contact Us</p><h2>Visit KNR Gold</h2><p>Visit the shop at Town Kotha Road, Visakhapatnam, or contact us for enquiries.</p></div>
+        <div class="contact-grid">
+          <div class="contact-panel">
+            <div class="contact-brand"><span>Quick Response Available</span><h3>KNR GOLD</h3><p>Diamond, Gold, Platinum & Silver Jewellery</p></div>
+            <div class="contact-row"><i>📍</i><div><h4>Shop Address</h4><p>#26-15-182, Main Road, Town Kotha Road, Visakhapatnam - 530001</p></div></div>
+            <div class="contact-row"><i>☎️</i><div><h4>Phone</h4><a href="tel:08912795072">0891-2795072</a></div></div>
+            <div class="contact-row"><i>💬</i><div><h4>WhatsApp</h4><a href="https://wa.me/919949362143" target="_blank" rel="noopener">9949362143</a></div></div>
+            <div class="contact-row"><i>✉️</i><div><h4>Email</h4><a href="mailto:kedarnath.kandula@gmail.com">kedarnath.kandula@gmail.com</a></div></div>
+            <div class="contact-row"><i>🕐</i><div><h4>Business Hours</h4><p>Contact the shop to confirm today’s opening hours.</p></div></div>
+            <a class="ask-rate-wide" href="#rateModal"><small>Today</small><strong>Ask Gold & Silver Rate</strong></a>
+          </div>
+          <div class="map-box">
+            <iframe src="https://www.google.com/maps?q=Town%20Kotha%20Road%20Visakhapatnam%20530001&output=embed" title="KNR Gold location map" loading="lazy" allowfullscreen></iframe>
+            <div class="map-card"><div><strong>Town Kotha Road</strong><span>Visakhapatnam - 530001</span></div><a href="https://www.google.com/maps/search/?api=1&query=Town%20Kotha%20Road%20Visakhapatnam%20530001" target="_blank" rel="noopener">Get Directions</a></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
   <footer class="site-footer">
     <div class="container footer-grid">
-      <div>
-        <h2>KNR GOLD</h2>
-        <p>
-          Gold & Silver Wholesale & Retail shop located at Town Kotha Road,
-          Visakhapatnam.
-        </p>
-
-        <div class="footer-contact-pills">
-          <a href="tel:08912795072">Call</a>
-          <a href="https://wa.me/919949362143" target="_blank">WhatsApp</a>
-        </div>
-      </div>
-
-      <div>
-        <h3>Quick Links</h3>
-        <a href="#home">Home</a>
-        <a href="#services">Services</a>
-        <a href="#about">About</a>
-        <a href="#process">Process</a>
-        <a href="#gallery">Gallery</a>
-        <a href="#contact">Contact</a>
-      </div>
-
-      <div>
-        <h3>Services</h3>
-        <a href="#services">Sell Old Gold</a>
-        <a href="#services">Release Pledged Gold</a>
-        <a href="#services">Gold Jewellery</a>
-        <a href="#services">Silver Items</a>
-        <a href="#services">Today Gold / Silver Rate</a>
-      </div>
-
-      <div>
-        <h3>Contact</h3>
-        <p>0891-2795072</p>
-        <p>9949362143</p>
-        <p>Town Kotha Road, Visakhapatnam</p>
-        <p>kedarnath.kandula@gmail.com</p>
-      </div>
+      <div><h2>KNR GOLD</h2><p>One destination for jewellery collections, complete jewellery care and trusted gold services in Visakhapatnam.</p></div>
+      <div><h3>Quick Links</h3><a href="#home">Home</a><a href="#services">Services</a><a href="#about">About</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a></div>
+      <div><h3>Services</h3><a href="#gold-services">Sell Old Gold</a><a href="#gold-services">Release Pledged Gold</a><a href="#care-services">Custom Jewellery</a><a href="#care-services">Repair & Remodelling</a></div>
+      <div><h3>Contact</h3><p>0891-2795072</p><p>9949362143</p><p>Town Kotha Road, Visakhapatnam</p></div>
     </div>
-
-    <div class="container footer-bottom">
-      <p>
-        Disclaimer: Final valuation, documentation, gold rate, service process and payment
-        terms are subject to KNR Gold’s internal policy and applicable rules. Illegal,
-        stolen or suspicious gold will not be accepted.
-      </p>
-
-      <p>© 2026 KNR Gold. All Rights Reserved.</p>
-    </div>
+    <div class="container footer-bottom"><p>Final valuation, documentation, rates, service process and payment terms are subject to shop policy and applicable rules.</p><p>© 2026 KNR Gold. All Rights Reserved.</p></div>
   </footer>
 
-  <!-- Rate Modal Popup -->
   <div id="rateModal" class="rate-modal">
-    <a href="#" class="rate-modal-overlay" aria-label="Close rate popup"></a>
-
-    <div class="rate-modal-card">
-      <a href="#" class="rate-modal-close">×</a>
-
-      <span class="rate-modal-label">Today Market Rate</span>
-      <h2>Gold & Silver Rate</h2>
-
-      <p>
-        Please contact KNR Gold for the latest gold and silver market rate.
-        Final rate may vary based on purity, weight, market condition and shop policy.
-      </p>
-
-      <div class="rate-modal-note">
-        <strong>For accurate rate:</strong>
-        <span>Call or WhatsApp KNR Gold before visiting the shop.</span>
-      </div>
-
-      <div class="rate-modal-actions">
-        <a href="tel:08912795072" class="rate-call-btn">Call Now</a>
-        <a
-          href="https://wa.me/919949362143?text=Hello%20KNR%20Gold,%20please%20share%20today%20gold%20and%20silver%20rate."
-          target="_blank"
-          class="rate-whatsapp-btn">
-          WhatsApp Rate
-        </a>
-      </div>
-    </div>
+    <a href="#contact" class="rate-modal-overlay" aria-label="Close rate popup"></a>
+    <div class="rate-modal-card"><a href="#contact" class="rate-modal-close" aria-label="Close">×</a><span class="rate-modal-label">Today Market Rate</span><h2>Gold & Silver Rate</h2><p>Contact KNR Gold for the latest market rate. Final rate may vary according to purity, weight, market conditions and shop policy.</p><div class="rate-modal-actions"><a href="tel:08912795072" class="rate-call-btn">Call Now</a><a href="https://wa.me/919949362143?text=Hello%20KNR%20Gold,%20please%20share%20today's%20gold%20and%20silver%20rate." target="_blank" rel="noopener" class="rate-whatsapp-btn">WhatsApp Rate</a></div></div>
   </div>
 
-  <!-- Always Visible Sticky Action Window -->
-  <div class="sticky-action-window">
-    <a
-      href="https://wa.me/919949362143?text=Hello%20KNR%20Gold,%20I%20want%20to%20sell%20old%20gold."
-      target="_blank"
-      class="sticky-action-btn sticky-sell-btn">
-      Sell
-    </a>
-
-    <a
-      href="https://wa.me/919949362143?text=Hello%20KNR%20Gold,%20I%20want%20help%20for%20release%20pledged%20gold."
-      target="_blank"
-      class="sticky-action-btn sticky-release-btn">
-      Release
-    </a>
-
-    <a
-      href="https://wa.me/919949362143"
-      target="_blank"
-      class="sticky-icon-btn sticky-whatsapp-btn"
-      aria-label="WhatsApp KNR Gold">
-      <img src="images/whatsapp.png" alt="WhatsApp" />
-    </a>
-
-    <a href="tel:08912795072" class="sticky-icon-btn sticky-call-btn" aria-label="Call KNR Gold">
-      <svg viewBox="0 0 24 24" aria-hidden="true">
-        <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1C10.61 21 3 13.39 3 4c0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.24.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
-      </svg>
-    </a>
+  <div class="sticky-action-window" id="stickyActions">
+    <a href="https://wa.me/919949362143?text=Hello%20KNR%20Gold,%20I%20want%20to%20enquire%20about%20selling%20old%20gold." target="_blank" rel="noopener" class="sticky-action-item sticky-sell"><span class="sticky-symbol">₹</span><span>Sell Gold</span></a>
+    <a href="https://wa.me/919949362143?text=Hello%20KNR%20Gold,%20I%20need%20assistance%20to%20release%20pledged%20gold." target="_blank" rel="noopener" class="sticky-action-item sticky-release"><span class="sticky-symbol">🔐</span><span>Release</span></a>
+    <a href="https://wa.me/919949362143?text=Hello%20KNR%20Gold,%20I%20need%20assistance%20regarding%20your%20jewellery%20or%20gold%20services.%20Please%20contact%20me." target="_blank" rel="noopener" class="sticky-action-item sticky-whatsapp" aria-label="Contact KNR Gold on WhatsApp"><img src="images/whatsapp.png" alt="" class="sticky-whatsapp-icon" aria-hidden="true" /><span>WhatsApp</span></a>
+    <a href="tel:08912795072" class="sticky-action-item sticky-call"><span class="sticky-symbol">☎</span><span>Call</span></a>
   </div>
 
   <script src="script.js"></script>
