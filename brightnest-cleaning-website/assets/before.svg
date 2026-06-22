@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650">
+  <defs>
+    <linearGradient id="wall" x1="0" x2="0" y1="0" y2="1">
+      <stop stop-color="#e1dfd6"/>
+      <stop offset="1" stop-color="#cfc9bd"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" x2="1">
+      <stop stop-color="#b5aa9b"/>
+      <stop offset="1" stop-color="#8f8275"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="650" fill="url(#wall)"/>
+  <rect y="410" width="900" height="240" fill="url(#floor)"/>
+  <rect x="64" y="92" width="312" height="232" rx="18" fill="#b7c2bd"/>
+  <rect x="90" y="118" width="260" height="180" rx="10" fill="#d4ddd7"/>
+  <path d="M0 440h900" stroke="#736b63" stroke-width="8" opacity=".4"/>
+  <rect x="485" y="162" width="294" height="236" rx="18" fill="#786f6a"/>
+  <rect x="510" y="188" width="244" height="170" rx="12" fill="#8a817b"/>
+  <path d="M534 250h190M534 292h168M534 332h210" stroke="#655d58" stroke-width="16" stroke-linecap="round" opacity=".55"/>
+  <ellipse cx="610" cy="506" rx="185" ry="54" fill="#756d66" opacity=".45"/>
+  <path d="M92 452c45-35 88-21 125 18 35 36 74 47 120 23" fill="none" stroke="#6e665f" stroke-width="20" stroke-linecap="round" opacity=".5"/>
+  <circle cx="178" cy="495" r="17" fill="#6f675f" opacity=".55"/>
+  <circle cx="250" cy="528" r="11" fill="#6f675f" opacity=".5"/>
+  <circle cx="745" cy="480" r="14" fill="#6f675f" opacity=".55"/>
+  <g opacity=".6">
+    <path d="M120 146l32 32M154 146l-34 34M256 210l36 36M294 210l-38 38" stroke="#8b837c" stroke-width="10" stroke-linecap="round"/>
+    <path d="M540 214l28 28M570 214l-30 30M684 300l30 30M716 300l-32 32" stroke="#6b635e" stroke-width="10" stroke-linecap="round"/>
+  </g>
+  <text x="56" y="586" fill="#fff" font-family="Arial, sans-serif" font-size="44" font-weight="700" opacity=".75">Before Cleaning</text>
+</svg>

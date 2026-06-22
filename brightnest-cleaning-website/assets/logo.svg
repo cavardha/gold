@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-label="BrightNest Cleaning logo">
+  <defs>
+    <linearGradient id="g" x1="12" y1="84" x2="84" y2="12" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#087567"/>
+      <stop offset="1" stop-color="#0f9f8f"/>
+    </linearGradient>
+  </defs>
+  <rect width="96" height="96" rx="28" fill="url(#g)"/>
+  <path d="M24 51.5 48 30l24 21.5V72a6 6 0 0 1-6 6H30a6 6 0 0 1-6-6V51.5Z" fill="#fff" opacity=".95"/>
+  <path d="M35 58c10.5 5.6 23.3 4.4 34-3.2-2.6 12.5-12.2 20-24.5 20-6.2 0-12-2.1-16.5-5.7 1-5 3.3-8.8 7-11.1Z" fill="#ffbe55"/>
+  <circle cx="65" cy="24" r="5" fill="#fff"/>
+  <circle cx="76" cy="35" r="3" fill="#fff" opacity=".85"/>
+  <circle cx="23" cy="24" r="3.5" fill="#fff" opacity=".8"/>
+</svg>

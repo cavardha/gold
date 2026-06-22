@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650">
+  <defs>
+    <linearGradient id="wall" x1="0" x2="0" y1="0" y2="1">
+      <stop stop-color="#f5fffd"/>
+      <stop offset="1" stop-color="#e8f9f5"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" x2="1">
+      <stop stop-color="#d9f2ec"/>
+      <stop offset="1" stop-color="#bde8df"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="650" fill="url(#wall)"/>
+  <rect y="410" width="900" height="240" fill="url(#floor)"/>
+  <rect x="64" y="92" width="312" height="232" rx="18" fill="#ffffff"/>
+  <rect x="90" y="118" width="260" height="180" rx="10" fill="#dff6f1"/>
+  <path d="M0 440h900" stroke="#9ed9cf" stroke-width="8" opacity=".55"/>
+  <rect x="485" y="162" width="294" height="236" rx="18" fill="#ffffff"/>
+  <rect x="510" y="188" width="244" height="170" rx="12" fill="#e7fbf7"/>
+  <path d="M534 250h190M534 292h168M534 332h210" stroke="#c0ebe3" stroke-width="16" stroke-linecap="round" opacity=".8"/>
+  <ellipse cx="610" cy="506" rx="185" ry="54" fill="#8bded0" opacity=".18"/>
+  <path d="M123 475c56 20 124 18 185-4" fill="none" stroke="#83dccc" stroke-width="16" stroke-linecap="round" opacity=".6"/>
+  <g fill="#ffbe55">
+    <path d="M162 142l11 24 25 11-25 11-11 25-11-25-25-11 25-11z"/>
+    <path d="M720 246l9 18 19 9-19 8-9 19-8-19-19-8 19-9z"/>
+    <path d="M423 96l7 14 15 7-15 7-7 15-7-15-15-7 15-7z"/>
+  </g>
+  <g fill="#0f9f8f" opacity=".7">
+    <circle cx="204" cy="238" r="8"/>
+    <circle cx="668" cy="344" r="7"/>
+    <circle cx="788" cy="180" r="6"/>
+  </g>
+  <text x="56" y="586" fill="#087567" font-family="Arial, sans-serif" font-size="44" font-weight="700" opacity=".9">After Cleaning</text>
+</svg>
